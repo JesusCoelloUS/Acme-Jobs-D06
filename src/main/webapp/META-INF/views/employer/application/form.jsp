@@ -52,6 +52,6 @@
 	<acme:form-textarea code="employer.application.form.label.qualifications" path="qualifications" readonly="true"/>
 	
 	<acme:button code="employer.application.form.button.job" action="/acme-jobs/employer/job/show?id=${jobId }"/>
-	<acme:form-submit test="${status == 'PENDING'}" code="employer.application.form.button.update" action="/employer/application/update"/>
+	<acme:form-submit test="${status == 'PENDING' || (status == 'REJECTED' && rejectDecision == '') || (status == 'ACCEPTED' && rejectDecision != '')}" code="employer.application.form.button.update" action="/employer/application/update"/>
 	<acme:form-return code="employer.application.form.button.return"/>
 </acme:form>

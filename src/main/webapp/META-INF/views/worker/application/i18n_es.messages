@@ -22,3 +22,5 @@ worker.application.form.label.qualifications = Cualificaciones
 worker.application.form.button.job = Empleo
 worker.application.form.button.return = Volver
 worker.application.form.button.create = Solicitar
+
+worker.application.error.reference = Esa solicitud ya existe
