@@ -214,7 +214,7 @@
 		<property name="ticker" value="RkMMq-39102"/>
 		<property name="title" value="This is the title of the request"/>
 		<property name="creationMoment" value="2019/12/01 12:00"/>
-		<property name="deadline" value="2020/03/30 23:59"/>
+		<property name="deadline" value="2021/03/30 23:59"/>
 		<property name="text" value="Here we are describing this request"/>
 		<property name="reward" value="200"/>
 	</bean>
@@ -223,7 +223,7 @@
 		<property name="ticker" value="Rpomr-00912"/>
 		<property name="title" value="This is the title of the request"/>
 		<property name="creationMoment" value="2019/11/12 12:00"/>
-		<property name="deadline" value="2020/02/01 11:00"/>
+		<property name="deadline" value="2021/02/01 11:00"/>
 		<property name="text" value="Here we are describing this request"/>
 		<property name="reward" value="100"/>
 	</bean>
@@ -232,7 +232,7 @@
 		<property name="ticker" value="Rertc-45678"/>
 		<property name="title" value="This is the title of the request"/>
 		<property name="creationMoment" value="2019/10/12 16:00"/>
-		<property name="deadline" value="2020/12/11 23:59"/>
+		<property name="deadline" value="2021/12/11 23:59"/>
 		<property name="text" value="Here we are describing this request"/>
 		<property name="reward" value="500"/>
 	</bean>
@@ -331,7 +331,7 @@
 	
 	<bean id="challenge01" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge01's title"/>
-		<property name="deadline" value="2020/01/01 00:00"/>
+		<property name="deadline" value="2021/01/01 00:00"/>
 		<property name="description" value="This is the description"/>
 		<property name="goldReward" value="200"/>
 		<property name="silverReward" value="150"/>
@@ -343,7 +343,7 @@
 	
 	<bean id="challenge02" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge02's title"/>
-		<property name="deadline" value="2020/02/01 00:00"/>
+		<property name="deadline" value="2021/02/01 00:00"/>
 		<property name="description" value="This is the description"/>
 		<property name="goldReward" value="300"/>
 		<property name="silverReward" value="200"/>
@@ -355,7 +355,7 @@
 	
 	<bean id="challenge03" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Challenge03's title"/>
-		<property name="deadline" value="2020/12/19 00:00"/>
+		<property name="deadline" value="2021/12/19 00:00"/>
 		<property name="description" value="This is the description"/>
 		<property name="goldReward" value="100"/>
 		<property name="silverReward" value="75"/>

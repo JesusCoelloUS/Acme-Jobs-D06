@@ -73,16 +73,6 @@ master.menu.administrator.investor-record.create = Nuevo informe de inversor
 master.menu.administrator.announcement.create = Nuevo anuncio
 master.menu.administrator.company-record.create = Nuevo informe de compañía
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.request.create = Nueva petición
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumidor
-master.menu.consumer.offer.create = Nueva oferta
-
 # master.menu.worker ##########################################################
 
 master.menu.worker = Trabajador
@@ -107,10 +97,6 @@ master.menu.auditor.audit-record.list = Ver registros de auditor
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
-master.menu.user-account.consumer = Datos de consumidor
-master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.employer = Datos de empleador
 master.menu.user-account.become-employer = Hazte empleador
 master.menu.user-account.worker = Datos de trabajador

@@ -31,10 +31,6 @@
        drop 
        foreign key FK_h52w0f3wjoi68b63wv9vwon57;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `duty` 
        drop 
        foreign key `FKs2uoxh4i5ya8ptyefae60iao1`;
@@ -46,10 +42,6 @@
     alter table `job` 
        drop 
        foreign key `FK3rxjf8uh6fh2u990pe8i2at0e`;
-
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
 
     alter table `thread_message` 
        drop 
@@ -89,8 +81,6 @@
 
     drop table if exists `configuration`;
 
-    drop table if exists `consumer`;
-
     drop table if exists `duty`;
 
     drop table if exists `employer`;
@@ -100,8 +90,6 @@
     drop table if exists `job`;
 
     drop table if exists `offer`;
-
-    drop table if exists `provider`;
 
     drop table if exists `request`;
 
